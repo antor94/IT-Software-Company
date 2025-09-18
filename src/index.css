@@ -14,8 +14,7 @@
 
   /* -------- color */
   --color-main: #131022
+/* ------- font */
+  font-family: "Manrope", sans-serif;
 
-
-  /* ------ font */
-  --font-main :"Manrope", sans-serif;
 }
