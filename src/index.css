@@ -1,3 +1,4 @@
+
 /* ----------- tailwind */
 @import "tailwindcss";
 
@@ -10,11 +11,16 @@
 
 /* --------- variable */
 
-@theme{
+@theme {
 
   /* -------- color */
-  --color-main: #131022
+  --color-main: #131022;
 /* ------- font */
-  font-family: "Manrope", sans-serif;
+--font-main: "Manrope", sans-serif;
 
 }
+
+/* index.css or a global stylesheet */
+/* :root {
+  --font-main: "Poppins", sans-serif;
+} */
