@@ -3,6 +3,8 @@ import logo from '../assets/images/solid.svg'
 import { Link } from 'react-router'
 import { IoToggle } from "react-icons/io5";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
+import { FiLogOut } from "react-icons/fi";
+
 
 
 
@@ -29,12 +31,14 @@ const Navbar = () => {
 </div>
 {/* ---------- toggle button */}
 <div className='flex items-center'>
-    <label className=''>Light</label>
-    <IoToggle className=' text-[#6366F1] w-[46px] h-[24px] px-[16px]' />
-    <label>Dark</label>
+    <label className=' text-[16px] font-semibold font-main text-[#585C7B]'>Light</label>
+    <IoToggle className=' text-[#6366F1] text-[70px] px-[16px]' />
+    <label className=' text-[16px] font-semibold font-main text-[#585C7B]'>Dark</label>
 </div>
 
-{/* ------------  */}
+{/* ------------ log in */}
+
+<div className='w-[106px] border text-[14px] font-semibold font-ma text-[#6366F1]  border-[#6365f15a]'> <Link to={'/'} className='flex items-center gap-[8px] py-[9px]' ><FiLogOut />  Log in</Link></div>
 
 
             </div>
