@@ -14,18 +14,17 @@ const Logodiv = () => {
     
     
 
-    <section id='logo'>
+    <section id='logo' className='py-[96px]'>
         <div className="container">
-            <div id='logo-row'>
+            <div id='logo-row' className='flex items-center justify-center gap-[24px]'>
 
              <Link to={'/'} ><img src={logo1} alt="logoDiv" /></Link>
              <Link to={'/'} ><img src={logo2} alt="logoDiv" /></Link>
-             <Link to={'/'} ><img src={logo1} alt="logoDiv" /></Link>
-             <Link to={'/'} ><img src={logo1} alt="logoDiv" /></Link>
-             <Link to={'/'} ><img src={logo1} alt="logoDiv" /></Link>
-             <Link to={'/'} ><img src={logo1} alt="logoDiv" /></Link>
-             <Link to={'/'} ><img src={logo1} alt="logoDiv" /></Link>
-             <Link to={'/'} ><img src={logo1} alt="logoDiv" /></Link>
+             <Link to={'/'} ><img src={logo3} alt="logoDiv" /></Link>
+             <Link to={'/'} ><img src={logo4} alt="logoDiv" /></Link>
+             <Link to={'/'} ><img src={logo5} alt="logoDiv" /></Link>
+             <Link to={'/'} ><img src={logo6} alt="logoDiv" /></Link>
+
 
             </div>
         </div>
