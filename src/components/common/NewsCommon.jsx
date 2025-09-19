@@ -1,5 +1,7 @@
 import React from 'react'
 import { AiOutlineLike } from "react-icons/ai";
+import { VscComment } from "react-icons/vsc";
+import { LuShare2 } from "react-icons/lu";
 
 const NewsCommon = () => {
   return (
@@ -14,9 +16,22 @@ const NewsCommon = () => {
 
             {/* -------- icon */}
             <div>
-                <button><AiOutlineLike /></button>
+                <div className='flex items-center gap-[4px]'>
+
+                <button><AiOutlineLike className='text-[18px] text-[#9397AD]' /></button>
                 <p className='text-[14px] font-normal font-main text-[#9397AD]'>2</p>
             </div>
+                 <div className='flex items-center gap-[4px]'>
+
+                <button><VscComment className='text-[18px] text-[#9397AD]' /></button>
+                <p className='text-[14px] font-normal font-main text-[#9397AD]'>4</p>
+            </div>
+                 <div className='flex items-center gap-[4px]'>
+
+                <button><LuShare2 className='text-[18px] text-[#9397AD]' /></button>
+                <p className='text-[14px] font-normal font-main text-[#9397AD]'>2</p>
+            </div>
+                </div>
 
         </div>
 
