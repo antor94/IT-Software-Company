@@ -15,7 +15,7 @@ const NewsCommon = () => {
             <div className='w-[307px]'><p className='text-[16px] font-normal font-main text-[#585C7B]'>Sociis sit risus id. Sit facilisis dolor arcu, fermentum vestibulum arcu ele. Pulvinar at maecenas maecenas pharetra, tincidunt sollicitudin in in. </p></div>
 
             {/* -------- icon */}
-            <div>
+            <div className='gap-[16px] flex items-center'>
                 <div className='flex items-center gap-[4px]'>
 
                 <button><AiOutlineLike className='text-[18px] text-[#9397AD]' /></button>
