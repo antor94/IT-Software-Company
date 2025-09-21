@@ -8,11 +8,17 @@ const Banner = () => {
     
     
     <section  id='banner' style={{  background: `URL(${bannerImg})`,  backgroundRepeat: `no-repeat`,    backgroundSize: `cover`, }}
-        className=" bg-left lg:backgroundPosition: center, w-full pt-[163px] pb-[199px] relative lg:py-[228px]" > 
-        <div className='w-full h-[600px] bg-[#131022] absolute top-0 left-0 opacity-50 '></div>
+        className=" bg-left lg:backgroundPosition: center, w-full pt-[163px] pb-[199px] relative z-999 lg:py-[228px]" > 
+
         <div className="container">
             <div id='banner-row'>
-                <div className=''>
+                <div id='heading' className='w-[856px]'>
+                    <div className='w-[856px] text-center'>
+                    <h1 className='text-[72px] font-extrabold font-main text-white'>The Best IT Solutions for Your Business</h1>
+
+                    </div>
+                    <p>We carry out the widest range of high quality IT services and solutions to our customers making their business better.</p>
+                    <button className='w-[200px] bg-[#6366F1]'>Start your project</button>
 
                 </div>
             </div>
