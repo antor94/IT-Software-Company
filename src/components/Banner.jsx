@@ -1,9 +1,24 @@
 import React from 'react'
+import bannerImg from '../assets/images/bannerImg.png'
 
 
 const Banner = () => {
   return (
-    <div>Banner</div>
+    <>
+    
+    
+    <section id='banner'>
+        <div className="container">
+            <div id='banner-row'>
+
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    
+    </>
   )
 }
 
