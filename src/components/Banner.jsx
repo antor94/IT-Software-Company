@@ -5,6 +5,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import { FaRegArrowAltCircleRight } from "react-icons/fa";
 
 const Banner = () => {
   return (
@@ -64,6 +65,7 @@ const Banner = () => {
                 </Link>
               </div>
             </div>
+            <button className="w-[164px] text-[16px] font-semibold font-main text-[#fff]">Our case studies <FaRegArrowAltCircleRight /></button>
           </div>
         </div>
       </section>
