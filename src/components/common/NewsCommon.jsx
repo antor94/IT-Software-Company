@@ -11,7 +11,7 @@ const NewsCommon = ({newsP , newsHead , newsDis , newsT}) => {
         <div className='p-[40px] '>
 
             <div className='flex'>
-                <p className='w-[75px] px-[8px] bg-[#EFF2FC] text-[14px] font-semibold font-main text-[#3E4265]'>{newsP}</p>
+                <p className='w-[75px] px-[8px] bg-[#EFF2FC] text-[14px] rounded-[4px] font-semibold font-main text-[#3E4265]'>{newsP}</p>
                 <span className=' inline-block w-[1px] h-[20px] mx-[12px] bg-[#E2E5F1]'></span>
                 <p className='text-[14px] font-normal font-main group-hover:text-white text-[#9397AD]'>{newsT}</p>
             </div>

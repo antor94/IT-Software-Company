@@ -6,6 +6,7 @@ import Choose from '../components/Choose'
 import Banner from '../components/Banner'
 import Case from '../components/Case'
 import Award from '../components/Award'
+import Clients from '../components/Clients'
 
 const Home = () => {
   return (
@@ -17,6 +18,8 @@ const Home = () => {
     <Case />
 
     <Choose />
+
+    <Clients/>
     
     <Logodiv />
     <News />
