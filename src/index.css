@@ -15,12 +15,8 @@
 
   /* -------- color */
   --color-main: #131022;
+  --color-primary:#585C7B;
 /* ------- font */
 --font-main: "Manrope", sans-serif;
 
 }
-
-/* index.css or a global stylesheet */
-/* :root {
-  --font-main: "Poppins", sans-serif;
-} */

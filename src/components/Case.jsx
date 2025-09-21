@@ -22,15 +22,19 @@ const Case = () => {
         </div>
     </div>
 
-    <section id='case2' style={{  background: `URL(${caseImg})`, backgroundRepeat: `no-repeat`,  backgroundSize: `cover`, }} >
+    <section id='case2' style={{  background: `URL(${caseImg})`, backgroundRepeat: `no-repeat`,  backgroundSize: `cover`, }} className='pt-[112px] pb-[155px]' >
         <div className="container">
-            <div className='w-[526px] h-[420px] bg-[#FFFFFF] rounded-[8px]'>
+            <div className='w-[526px] h-[420px] bg-[#FFFFFF] px-[40px] py-[40px] rounded-[8px]'>
                 <div><img src={caseLogo} alt="case-logo" /></div>
 
-                <h2>Cashless payment case study</h2>
-                <p>Payment Service Provider Company</p>
-                <div><p>Aenean dolor elit tempus tellus imperdiet. Elementum, ac convallis morbi sit est feugiat ultrices. Cras tortor maecenas pulvinar nec ac justo. Massa sem eget semper odio ornare...</p></div>
-                <button className='w-[163px] bg-[#6366F1] rounded-[8px]'>View case study</button>
+                <div className='mt-[16px] mb-[8px]'>
+                <h2  className='text-[28px] font-extrabold font-main text-main'>Cashless payment case study</h2>
+
+                </div>
+
+                <p className='text-[14px] pb-[16px] font-normal font-main text-[#9397AD]'>Payment Service Provider Company</p>
+                <div className='w-[446px] pt-[16px]  mb-[32px] border-[#E2E5F1] border-t'><p className='text-[16px] font-normal font-main text-[#585C7B]'>Aenean dolor elit tempus tellus imperdiet. Elementum, ac convallis morbi sit est feugiat ultrices. Cras tortor maecenas pulvinar nec ac justo. Massa sem eget semper odio ornare...</p></div>
+                <button className='w-[163px] py-[11px] text-[14px] font-semibold font-main text-[#fff] bg-[#6366F1] rounded-[8px]'>View case study</button>
 
             </div>
         </div>
